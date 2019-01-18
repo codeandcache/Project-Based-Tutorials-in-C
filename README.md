@@ -1,88 +1,15 @@
 # Project Based Tutorials in C
-
-A list of tutorials that work towards the making of small to large projects in C.
-
-## Table of Contents
-
-* [Computer Architecture](#computer-architecture)
-* [Computer Networking](#computer-networking)
-* [Databases](#databases)
-* [Game Development](#game-development)
-* [Operating Systems](#operating-systems)
-* [Programming Languages](#programming-languages)
-* [Uncategorized](#uncategorized)
-* [Other Resources](#other-resources)
-
-## Computer Architecture
-
-* [Bitwise](https://github.com/pervognsen/bitwise) `video` `in-progress`
-* [Emulator 101](http://emulator101.com/)
-* [Implementing a Virtual Machine in C](https://felixangell.com/blog/virtual-machine-in-c)
-* Writing a Chip 8 Emulator `in-progress`
-   * [Part 1](http://craigthomas.ca/blog/2014/06/21/writing-a-chip-8-emulator-part-1/)
-   * [Part 2](http://craigthomas.ca/blog/2014/07/17/writing-a-chip-8-emulator-part-2/)
-   * [Part 3](http://craigthomas.ca/blog/2015/02/19/writing-a-chip-8-emulator-draw-command-part-3/)
-   * [Part 4](http://craigthomas.ca/blog/2017/10/15/writing-a-chip-8-emulator-built-in-font-set-part-4/)
-   * [Part 5](http://craigthomas.ca/blog/2018/09/07/writing-a-chip-8-emulator-instruction-set-part-5/)
-* [Writing a Game Boy emulator](https://cturt.github.io/cinoop.html)
-* [Write your Own Virtual Machine](https://justinmeiners.github.io/lc3-vm/)
-
-## Computer Networking
-
-* [Beej's Guide to Network Programming](http://beej.us/guide/bgnet/html/multi/index.html) `book`
-* [Concurrent Servers](https://eli.thegreenplace.net/2017/concurrent-servers-part-1-introduction/)
-* [Learn Socket Programming in C from Scratch](https://www.udemy.com/learn-socket-programming-in-c-from-scratch/) `video`
-* Let's code a TCP/IP stack
-    * [Part 1: Ethernet & ARP](http://www.saminiir.com/lets-code-tcp-ip-stack-1-ethernet-arp/)
-    * [Part 2: IPv4 & ICMPv4](http://www.saminiir.com/lets-code-tcp-ip-stack-2-ipv4-icmpv4/)
-    * [Part 3: TCP Basics & Handshake](http://www.saminiir.com/lets-code-tcp-ip-stack-3-tcp-handshake/)
-    * [Part 4: TCP Data Flow & Socket API](http://www.saminiir.com/lets-code-tcp-ip-stack-4-tcp-data-flow-socket-api/)
-    * [Part 5: TCP Retransmission](http://www.saminiir.com/lets-code-tcp-ip-stack-5-tcp-retransmission/)
-* [Let's make a NTP Client in C](https://lettier.github.io/posts/2016-04-26-lets-make-a-ntp-client-in-c.html)
-* [Multiplayer WebSocket Game server written in C using libuv & libwebsockets & Cocos2d-x-HTML5](http://www.gamedevcraft.com/2016/08/part-1-multiplayer-websocket-game.html)
-
-## Databases
-
-* [Let's Build a Simple Database](https://cstack.github.io/db_tutorial/)
-
-## Game Development
-
-* [Astroids Clone](https://dashgl.com/Astroids/)
-* [Brickout Clone](https://dashgl.com/Brickout/)
-* [Chess Engine In C](https://www.youtube.com/playlist?list=PLZ1QII7yudbc-Ky058TEaOstZHVbT-2hg) `video`
-* [Coding A Sudoku Solver in C](https://www.youtube.com/playlist?list=PLkTXsX7igf8edTYU92nU-f5Ntzuf-RKvW) `video`
-* [Coding a Rogue/Nethack RPG in C](https://www.youtube.com/playlist?list=PLkTXsX7igf8erbWGYT4iSAhpnJLJ0Nk5G) `video`
-* [Handmade Hero](https://handmadehero.org/) `video` `in-progress`
-* [Hangman](https://www.youtube.com/playlist?list=PLZ1QII7yudbd2ZHYSEWrSddsvD5PW_r5O) `video`
-* [How to Program an NES game in C](https://nesdoug.com/)
-* [How to Program a Text Adventure in C](https://helderman.github.io/htpataic/htpataic01.html) `in-progress`
-* [Invaders Clone](https://dashgl.com/Invaders/)
-* [Learn Video Game Programming in C](https://www.youtube.com/playlist?list=PLT6WFYYZE6uLMcPGS3qfpYm7T_gViYMMt) `video`
-* [Let's Make: Dangerous Dave](https://www.youtube.com/playlist?list=PLSkJey49cOgTSj465v2KbLZ7LMn10bCF9) `video`
-* [On Tetris and Reimplementation](https://brennan.io/2015/06/12/tetris-reimplementation/)
-* [SDL 2 Isometric Game Tutorial](https://www.youtube.com/playlist?list=PLsM5EdVxpsQ3YTGlFaOwZsWEWoLVQEkQz) `video` `in-progress`
-* [Simple Tic Tac Toe in C](https://www.youtube.com/playlist?list=PLZ1QII7yudbc7_ZgXA-gIXmME41Rs2GP5) `video`
-* [Tic-tac-toe Game in C with SDL](https://www.youtube.com/watch?v=gCVMkKgs3uQ) `video`
-* Video Game Physics Tutorial
-   * [Part I: An Introduction to Rigid Body Dynamics](https://www.toptal.com/game/video-game-physics-part-i-an-introduction-to-rigid-body-dynamics)
-   * [Part II: Collision Detection for Solid Objects](https://www.toptal.com/game/video-game-physics-part-ii-collision-detection-for-solid-objects)
-   * [Part III: Constrained Rigid Body Simulation](https://www.toptal.com/game/video-game-physics-part-iii-constrained-rigid-body-simulation)
-* [Writing a Game Boy Advance Game](https://www.reinterpretcast.com/writing-a-game-boy-advance-game)
-
 ## Operating Systems
 
 * [Build a minimal multi-tasking OS kernel for ARM from scratch](https://github.com/jserv/mini-arm-os)
 * [Build Your Own Shell](https://github.com/tokenrove/build-your-own-shell)
-* [Building an Operating System for the Raspberry Pi](https://jsandler18.github.io/)
 * [Hack the Virtual Memory](https://blog.holbertonschool.com/hack-virtual-memory-stack-registers-assembly-code/)
 * [How to Create an OS from Scratch](https://github.com/cfenollosa/os-tutorial) `in-progress`
-* [Learning operating system development using Linux kernel and Raspberry Pi](https://github.com/s-matyukevich/raspberry-pi-os) `in-progress`
 * [Let's build a shell!](https://github.com/kamalmarhubi/shell-workshop)
 * [Let's Write a Malloc](https://danluu.com/malloc-tutorial/)
 * Let’s write a Kernel
     * [Part 1 - Kernel 101](https://arjunsreedharan.org/post/82710718100/kernel-101-lets-write-a-kernel)
     * [Part 2 - Kernel 201](https://arjunsreedharan.org/post/99370248137/kernel-201-lets-write-a-kernel-with-keyboard)
-* [Linux Containers in 500 Lines of Code](https://blog.lizzie.io/linux-containers-in-500-loc.html)
 * [Operating systems development for Dummies](https://medium.com/@lduck11007/operating-systems-development-for-dummies-3d4d786e8ac)
 * [Operating Systems: From 0 to 1](https://tuhdo.github.io/os01/) `book`
 * [Rewrite cat](https://learnto.computer/screencasts/bsd-cat) `video`
@@ -146,16 +73,12 @@ A list of tutorials that work towards the making of small to large projects in C
     * [Part 23 - Garbage Collection](http://peter.michaux.ca/articles/scheme-from-scratch-bootstrap-v0_22-garbage-collection)
     * [Part 24 - Conclusion](http://peter.michaux.ca/articles/scheme-from-scratch-bootstrap-conclusion)
 
-## Uncategorized
 
-* A dummy blockchain implementation in C
-   * [Part 1](https://myram.xyz/c-blockchain-implementation-1/)
-   * [Part 2](https://myram.xyz/c-blockchain-implementation-2/)
 * [Build Your Own Text Editor](https://viewsourcecode.org/snaptoken/kilo/)
 * [How to Write a Video Player in Less Than 1000 Lines](http://dranger.com/ffmpeg/ffmpeg.html)
 * [Learn FFmpeg libav the Hard Way](https://github.com/leandromoreira/ffmpeg-libav-tutorial) `in-progress`
 * [Write a hash table in C](https://github.com/jamesroutley/write-a-hash-table)
-* [Writing an SVG Library](http://www.code-in-c.com/writing-svg-library-c/)
+
 
 ## Other Resources
 
